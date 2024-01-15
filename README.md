@@ -1,0 +1,1 @@
+The Piscine Discovery Web is an event organized by 42 Malaga in which the participants learn the basics of Bash, HTML, CSS and JavaScript. The methodology is based around the concept of peer to peer learning, in which every participant must solve certain exercises by their own and later other participants give feedback on their anwsers.
