@@ -1,0 +1,45 @@
+.Botón
+{
+    background-color: purple;
+    color: red;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.Hamburguesa
+{
+    position: relative;
+    display: inline-block;
+}
+
+.Ingredientes
+{
+    display: none;
+  position: absolute;
+  background-color: green;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.Ingredientes p
+{
+    color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.Ingredientes p:hover{background-color: steelblue;}
+
+.Hamburguesa:hover .Ingredientes
+{
+    display: block;
+}
+
+.Hamburguesa:hover .Botón
+{
+    background-color: aqua;
+}
