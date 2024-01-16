@@ -1,7 +1,7 @@
 .Botón
 {
     background-color: purple;
-    color: red;
+    color: black;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -50,8 +50,6 @@
 {
     background-color: red;
 }
-
-.Ingredientes p:hover{background-color: steelblue;}
 
 .Hamburguesa:hover .Ingredientes
 {
