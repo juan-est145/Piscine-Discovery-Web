@@ -1,0 +1,19 @@
+.main_table
+{
+    height: 100%; width: 100%; position: absolute;
+}
+
+.first_cell
+{
+    background-color: blue; width: 50%; height: 100%;
+}
+
+.first_cell p
+{
+    color: white;
+}
+
+.second_cell
+{
+    background-color: crimson; width: 50%; height: 100%;
+}
