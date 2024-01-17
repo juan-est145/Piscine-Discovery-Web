@@ -11,6 +11,18 @@ body, html
     position: relative;
 }
 
+.Centro
+{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .Primera_foto
 {
     background-image: url(/Users/juestrel/discovery_piscine/Images/ex2_02/programming-skills.png);
