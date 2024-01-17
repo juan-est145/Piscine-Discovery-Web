@@ -3,10 +3,21 @@ body, html
     height: 100%;
 }
 
+.Fondo
+{
+    background-color: black;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .Primera_foto
 {
     background-image: url(/Users/juestrel/discovery_piscine/Images/ex2_02/programming-skills.png);
-    height: 100%;
+    height: 50%;
+    width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
