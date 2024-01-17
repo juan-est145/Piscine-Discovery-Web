@@ -33,29 +33,36 @@ body, html
    justify-content: center;
    align-items: flex-end;
    color: white;
+   background-color: blue;
 }
 
 .Segunda_foto
 {
     background-image: url(/Users/juestrel/discovery_piscine/Images/ex2_02/Other_pic.avif);
-    height: 50%;
+    height: 25%;
     width: 100%;
     bottom: 0px;
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
-    align-items: flex-end;
-    justify-content: end;
+    align-items: center;
+    justify-content: center;
     position: absolute;
+    display: flex;
+    flex-direction: column;
 }
 
 .Segunda_foto p
 {
-   text-align: center;
-   position: relative;
-   margin: 0;
-   justify-content: center;
-   align-items: flex-end;
-   color: white;
+    text-align: center;
+    margin: 0;
+    color: white;
+    background-color: blue;
+    position: relative;
+    justify-content: center;
+    position: relative;
+    justify-content: center;
+    align-items: flex-end;
+    
 }
