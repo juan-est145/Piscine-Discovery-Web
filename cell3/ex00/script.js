@@ -1,5 +1,8 @@
 let Botón = document.getElementById("Botón");
 
+Botón.addEventListener('click', () => {
+    document.body.style.backgroundColor = create_random_color();
+  });
 
 function create_random_color()
 {
@@ -13,7 +16,3 @@ function create_random_color()
     }
     return `#${color_string}`;
 }
-
-Botón.addEventListener('click', () => {
-    document.body.style.backgroundColor = create_random_color();
-  });
